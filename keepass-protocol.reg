@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\keepass]
+@="URL:KeePass Protocol"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\keepass\shell]
+
+[HKEY_CLASSES_ROOT\keepass\shell\open]
+
+[HKEY_CLASSES_ROOT\keepass\shell\open\command]
+@="\"D:\\KeePass.exe\" \"D:\\Passwords\\MyDatabase.kdbx\""
